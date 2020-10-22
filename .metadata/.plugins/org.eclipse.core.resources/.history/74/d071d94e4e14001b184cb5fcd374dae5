@@ -1,0 +1,8 @@
+package com.verizontraining.apigatewayzuul;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ZuulLogging {
+
+}

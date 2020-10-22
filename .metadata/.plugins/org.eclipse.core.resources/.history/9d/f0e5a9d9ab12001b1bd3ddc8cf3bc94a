@@ -1,0 +1,4 @@
+spring.datasource.platform=mysql
+spring.datasource.url=jdbc:mysql://loclahost:5432/movies
+spring.datasource.username=root
+spring.datasource.password=root

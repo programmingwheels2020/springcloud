@@ -1,0 +1,12 @@
+package com.verizontraining.apigatewayzuul;
+
+import org.springframework.stereotype.Component;
+
+import com.netflix.zuul.ZuulFilter;
+import com.netflix.zuul.exception.ZuulException;
+
+
+public class LogginFilter extends ZuulFilter {
+
+	
+}

@@ -1,0 +1,5 @@
+package com.verizontraining.controllers;
+
+public class UserController {
+
+}

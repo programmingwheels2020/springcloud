@@ -1,0 +1,5 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/movie
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=creeate
+spring.jpa.show-sql=true

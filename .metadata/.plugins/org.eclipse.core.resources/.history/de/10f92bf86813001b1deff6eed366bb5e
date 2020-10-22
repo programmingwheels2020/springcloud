@@ -1,0 +1,8 @@
+package com.verizontraining.models;
+
+public class Post {
+private int id;
+private int userId;
+private String title;
+private String body;
+}

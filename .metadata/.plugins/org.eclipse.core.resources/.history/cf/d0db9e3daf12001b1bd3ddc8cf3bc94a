@@ -1,0 +1,22 @@
+package com.verizontraining.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.verizontraining.models.Movie;
+import com.verizontraining.repositories.MovieRepository;
+
+@RestController
+public class MovieController {
+
+	@Autowired
+	private MovieRepository movieRepository;
+	
+	@GetMapping("/movies")
+	private List<Movie> getMovies() {
+		return movieRepository.findAll();
+	}
+}

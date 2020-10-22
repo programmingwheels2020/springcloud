@@ -1,0 +1,9 @@
+package com.verizontraining.repositories;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name="notification-service", url="localhost:8090")
+public interface NotificationServiceProxy {
+   
+	
+}

@@ -1,0 +1,12 @@
+package com.verizontraining.repositories;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@FeignClient(name="notification-service", url="localhost:8090")
+public interface NotificationServiceProxy {
+	
+	@GetMapping("/send-email")
+	public String sendEmail();
+	
+}

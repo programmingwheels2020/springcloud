@@ -1,0 +1,5 @@
+package com.verizontraining.controller;
+
+public class EmailController {
+
+}

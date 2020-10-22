@@ -1,0 +1,5 @@
+package com.verizontraining.repositories;
+
+public interface NotificationServiceProxy {
+
+}

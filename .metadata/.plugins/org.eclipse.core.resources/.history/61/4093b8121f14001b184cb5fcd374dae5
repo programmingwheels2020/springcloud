@@ -1,0 +1,5 @@
+package com.verizontraining.models;
+
+public class User {
+
+}
