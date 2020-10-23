@@ -12,8 +12,8 @@ public class EmailController {
 	@HystrixCommand(fallbackMethod = "sendEmailFallback")
 	public String sendEmail() {
 		System.out.println("Email Has been sent");
-		throw new RuntimeException("Run Time Exception");
-		//return "Email sent successfully";
+		//throw new RuntimeException("Run Time Exception");
+		return "Email sent successfully";
 	}
 	
 	public String sendEmailFallback() {
